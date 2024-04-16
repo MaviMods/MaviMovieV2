@@ -31,4 +31,4 @@ filetype
 tldextract
 lk21
 Flask
-
+wget
