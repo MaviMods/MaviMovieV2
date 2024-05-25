@@ -1636,7 +1636,6 @@ async def auto_filter(client, msg, spoll=False):
                                                                                                                                         [InlineKeyboardButton(text=f"😒Not Available", callback_data=f"notify_user_not_avail:{user_id}:{requested_movie}")],
                                                                                                                                         [InlineKeyboardButton("❌Reject Req", callback_data=f"notify_user_req_rejected:{user_id}:{requested_movie}")]
                                                                                                                                         ]))
-                                                                                                                            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("╚»♥️ Thank You ♥️«╝", callback_data="close_data")]]))
                     return 
         else: 
             return
