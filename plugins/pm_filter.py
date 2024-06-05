@@ -1635,7 +1635,7 @@ async def auto_filter(client, msg, spoll=False):
                                                                                                                                         [InlineKeyboardButton("❌Reject Req", callback_data=f"notify_user_req_rejected:{user_id}:{requested_movie}")]
                                                                                                                                         ]))
                     return
-		 else:
+		else:
 		    return await advantage_spell_chok(client, msg)
         else: 
             return
