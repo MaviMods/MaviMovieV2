@@ -93,8 +93,8 @@ my_users = [int(my_users) if id_pattern.search(my_users) else my_users for my_us
 MY_USERS = (my_users) if my_users else []
 
 # Online Stream and Download
-PORT = int(environ.get('PORT', ))
-NO_PORT = bool(environ.get('NO_PORT', True))
+PORT = int(environ.get('PORT', 8080))
+NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
     ON_HEROKU = True
